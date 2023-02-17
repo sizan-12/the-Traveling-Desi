@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    font-family: roboto;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+}
+.navigation{
+    text-decoration: none;
+    margin-left: 130px;
+}
+.pages{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 45px;
+}
+.search-box{
+    background: transparent;
+    border-radius: 21.5px;
+    border: 2px solid #FFFFFF;
+    height: 25px;
+    color: #fff;
+}
+.search-icon{
+    color: #F5911E;
+}
+.input-icons i {
+    position: absolute;
+    right: 215px;
+    top:42px;
+}
+.logo{
+    margin-left: 180px;
+}
+.cart{
+    margin-left: 10px;
+}
+.search{
+    margin-left: 35px;
+}
+
+/* Hero Section */
+.banner-img{
+    height: 942px;
+    background-image: url("/images/Group\ 11.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-section{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.hero-section-heading{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+.hero-section-text{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.hero-section-button{
+    color: #fff;
+    padding: 15px 45px;
+    background-color: #F5911E;
+    border-radius: 5px;
+}
+.btn-text{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* social-media-section */
+.social-media-section-container{
+    width: 80%;
+    height: 371px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -190px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+    margin-bottom: 107px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-media-heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+.social-media-text{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 43px;
+    margin-top: 26px;
+}
+.individual-media{
+    padding: 0px 55px;
+    text-align: center;
+}
+.social-media-name{
+    margin-top: 8px;
+}
+
+/* about-section */
+
+.about-section-container{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 107px;
+}
+.about-sec-img{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+}
+.about-sec-text{
+    width: 50%;
+}
+.about-img{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    width: 530px;
+    height: auto;
+}
+.about-sec-paragraph{
+    font-size: 18px;
+    margin-bottom: 22px;
+    line-height: 24px;
+}
+.hr-line{
+    margin: 11px 0 30px 0;
+}
+.about-sec-heading{
+    font-size: 42px;
+    font-weight: 500px;
+}
+
+/* Course Section */
+
+.courses-section-img{
+    background-image: url("/images/Group\ 10.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    color: #fff;
+}
+.courses-section{
+    width: 80%;
+    margin: 0 auto;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.two-course{
+    display: flex;
+    justify-content: space-between;
+}
+.first-course{
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+.second-course{
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+.first-course-img{
+    width: 450px;
+}
+.second-course-img{
+    width: 450px;
+}
+.course-text{
+    color: #000;
+    font-size: 24px;
+    margin-top: 16px;
+    text-align: center;
+}
+.course-section-button{
+    color: #fff;
+    padding: 15px 0px;
+    background-color: #F5911E;
+    border-radius: 5px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 27px;
+}
+.courses-section-top-content{
+    text-align: center;
+}
+.courses-section-heading{
+    font-size: 36px;
+    margin-bottom: 28px;
+    
+}
+.courses-section-text{
+    font-size: 24px;
+    margin-bottom: 21px;
+}
+.hr-course-sec{
+    margin-bottom: 48px;
+}
+
+/* Newsletter Section */
+.newsletter-sec-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 107px;
+}
+.newsletter-sec-content{
+    display: flex;
+
+}
+.mobile-img{
+    width: 450px;
+}
+.newsletter-left-content{
+    width: 60%;
+}
+.newsletter-right-content{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+.newsletter-sec-heading{
+    font-size: 40px;
+}
+.newsletter-sec-text{
+    font-size: 18px;
+    margin-top: 43px;
+    line-height: 28px;
+}
+.form{
+    margin-top: 90px;
+}
+.text-box{
+    border: 1px solid #000;
+    width: 190px;
+    height: 36px;
+    font-size: 16px;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+.submit-btn{
+    padding: 9px 90px;
+    background-color: #F5911E;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Footer Section */
+
+.Footer-pages{
+    display: flex;
+    margin-bottom: 13px;
+    align-items: center;
+}
+.bullet-point{
+    width: 9px;
+    height: 9px;
+    margin-right: 10px;
+}
+.footer-container{
+    background-color: #000;
+    margin-top: 100px;
+}
+.footer-section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 90px 0px;
+}
+.individual-page{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.footer-logo-img{
+    width: 250px;
+    height: 40px;
+}
+.footer-logo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-pages-column{
+    width: 20%;
+}
+
+/* Copyright Section */
+.copyright-sec-container{
+    background-color: #111111;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    padding: 27px 0;
+}
+.copyright-sec-text{
+    margin-left: 5px;
+}
+
