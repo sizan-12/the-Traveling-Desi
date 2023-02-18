@@ -4,17 +4,12 @@
     
 }
 
-body {
-    max-width: 1600px;
-    margin: auto; 
- }
-
-
 .navbar{
     display: flex;
     align-items: center;
     background-color: black;
     height: 100px;
+    justify-content: center;
 }
 .navigation{
     text-decoration: none;
@@ -44,7 +39,7 @@ body {
     top: 4px;
 }
 .logo{
-    margin-left: 180px;
+    margin-left: 0px;
 }
 .cart{
     margin-left: 10px;
@@ -364,12 +359,11 @@ body {
 }
 
 
-
-
-
 /* ----------------
     Media Quiries for - Mobile
 -----------------*/
+
+
 @media only screen and (max-width:767px) {
     .navbar{
         display: block;
@@ -771,3 +765,114 @@ body {
     }
 }
 
+/* ----------------
+    Media Quiries for - laptop, small dekstop
+-----------------*/
+
+
+@media only screen and (min-width:768px) and (max-width:1289px) {
+
+
+    .navigation {
+    text-decoration: none;
+    margin-left: 55px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        background-color: black;
+        height: 100px;
+        justify-content: center;
+    }
+    .social-media-text {
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 43px;
+        margin-top: 26px;
+        text-align: center;
+    }
+    .about-sec-img {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 50%;
+    }
+    .about-img {
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+        border-radius: 15px;
+        width: 440px;
+        height: 430px;
+    }
+    .first-course-img {
+        width: 400px;
+    }
+    .second-course-img {
+        width: 400px;
+    }
+    .submit-sec-btn {
+        margin-top: 21px;
+        display: block;
+    }
+    .submit-btn {
+        padding: 9px 75px;
+        background-color: #F5911E;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .mobile-img {
+        width: 390px;
+    }
+}
+
+/* ----------------
+    Media Quiries for - large dekstop
+-----------------*/
+
+@media only screen and (min-width:1288px) {
+    .social-media-text {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 43px;
+        margin-top: 26px;
+        text-align: center;
+    }
+    .about-sec-img {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 50%;
+    }
+    .about-img {
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+        border-radius: 15px;
+        width: 440px;
+        height: 430px;
+    }
+    .mobile-img {
+        width: 372px;
+    }
+    .newsletter-right-content {
+        width: 35%;
+        display: flex;
+        justify-content: end;
+    }
+    .newsletter-left-content {
+        width: 65%;
+    }
+    .submit-btn {
+        padding: 9px 75px;
+        background-color: #F5911E;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .navigation {
+        text-decoration: none;
+        margin-left: 65px;
+    }
+}
